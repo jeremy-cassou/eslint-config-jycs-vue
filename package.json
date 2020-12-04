@@ -1,0 +1,16 @@
+{
+  "name": "@jycs/eslint-config-jycs-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Cassou <jeremy.cassou@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "@jycs/eslint-config-jycs-base": "^1.0.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-vue": "^7.0.0"
+  }
+}
