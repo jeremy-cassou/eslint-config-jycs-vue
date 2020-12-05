@@ -1,5 +1,5 @@
 {
-  "name": "@jycs/eslint-config-jycs-vue",
+  "name": "eslint-config-jycs-vue",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jeremy Cassou <jeremy.cassou@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
-    "@jycs/eslint-config-jycs-base": "^1.0.0",
+    "eslint-config-jycs-base": "^1.0.0",
     "eslint": "^7.10.0",
     "eslint-plugin-vue": "^7.0.0"
   }

@@ -1,7 +1,7 @@
 module.exports = {
 
   extends: [
-    '@jycs/eslint-config-jycs-base',
+    'eslint-config-jycs-base',
     'plugin:vue/recommended',
   ],
 

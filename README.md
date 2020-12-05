@@ -1,18 +1,18 @@
-# @jycs/eslint-config-jycs-vue
+# eslint-config-jycs-vue
 
 ESLint rule set for Vue.js projects
 
 ## Install
 ```
-npm install --save-dev eslint eslint-config-airbnb-base eslint-import-resolver-alias eslint-plugin-vue @jycs/eslint-config-jycs-base
-npm install --save-dev @jycs/eslint-config-jycs-vue
+npm install --save-dev eslint eslint-config-airbnb-base eslint-import-resolver-alias eslint-plugin-vue eslint-config-jycs-base
+npm install --save-dev eslint-config-jycs-vue
 ```
 
 # .eslintrc.js file example
 ```javascript
 module.exports = {
   root: true,
-  extends: ['@jycs/eslint-config-jycs-vue'],
+  extends: ['eslint-config-jycs-vue'],
 }
 ```
 
@@ -27,7 +27,7 @@ Example of usage with Husky for check lint before commit
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@jycs/eslint-config-jycs-base": "^1.0.0",
+    "eslint-config-jycs-base": "^1.0.0",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-import-resolver-alias": "^1.1.2",
